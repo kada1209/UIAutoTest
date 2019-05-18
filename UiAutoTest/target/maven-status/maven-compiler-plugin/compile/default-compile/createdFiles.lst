@@ -1,0 +1,12 @@
+module\SlidePage.class
+test\LoginTest.class
+log\AutoLogger.class
+test\BookSearch.class
+operatFile\AutoOperatExcelFile.class
+module\Config.class
+operatFile\AutoTestCaseId.class
+module\ElementExist.class
+operatFile\AutoOperatExcelFile$1.class
+module\InitSetUp.class
+module\ScreenShot.class
+test.class

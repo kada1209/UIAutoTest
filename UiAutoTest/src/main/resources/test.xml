@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="test">
+    <test name="login">
+        <classes>
+            <class name="test.LoginTest">
+                <methods>
+                    <include name="abdroidAppTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="search">
+        <classes>
+            <class name="test.BookSearch">
+                <methods>
+                    <include name="searchTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="listen">
+        <classes>
+            <class name="test.LinstenIndexTest">
+                <methods>
+                    <include name="listenTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+
+</suite>
